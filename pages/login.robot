@@ -8,7 +8,7 @@ Variables        ../resources/data/testdata.py
 *** Keywords ***
 
 To Login Page
-    Wait Until Element Is Visible With Long Time    ${logo}
+    Wait Until Element Is Visible With Long Time    ${loginLogo}
     Click Element    ${InputUserName}
 
 Input Data User
